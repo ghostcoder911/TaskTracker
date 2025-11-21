@@ -1,0 +1,80 @@
+=========================================
+  Task Tracker Desktop App - Setup
+=========================================
+
+STEP 1: Copy Your Google Service Account Credentials
+-----------------------------------------------------
+1. Find your Google service account JSON file (you downloaded it earlier)
+2. Copy it to this folder (desktop_app/)
+3. Rename it EXACTLY to: credentials.json
+
+The file should be in the same folder as tasktracker_app.py
+
+
+STEP 2: Create config.json
+-----------------------------------------------------
+1. Copy config_template.json to config.json:
+   
+   cp config_template.json config.json
+
+2. The spreadsheet ID is already set correctly!
+
+
+STEP 3: Share Spreadsheet with Service Account
+-----------------------------------------------------
+VERY IMPORTANT - This is why data isn't uploading!
+
+1. Open your JSON credentials file
+2. Find the "client_email" field
+   - It looks like: tasktracker-bot@tasktracker-xxxxx.iam.gserviceaccount.com
+3. Copy that email address
+4. Open your Google Spreadsheet:
+   https://docs.google.com/spreadsheets/d/1EY7ZV0oxvvW-IFToMHFz-wHwtTP3U0u7vipcyNYdFk0/edit
+5. Click "Share" button (top right)
+6. Paste the service account email
+7. Give it "Editor" permission
+8. UNCHECK "Notify people"
+9. Click "Share"
+
+
+STEP 4: Test the App
+-----------------------------------------------------
+python tasktracker_app.py
+
+- If it shows a warning about Google Sheets, check steps above
+- If no warning, data will be saved to Google Sheets!
+- Data is ALWAYS saved locally as backup to: checkins_backup.json
+
+
+Troubleshooting
+-----------------------------------------------------
+Q: "credentials.json not found"
+A: Make sure the file is in desktop_app/ folder with EXACT name: credentials.json
+
+Q: "Could not connect to Google Sheets"
+A: Check these:
+   - credentials.json exists
+   - config.json exists
+   - Spreadsheet is shared with service account email
+   - You have internet connection
+
+Q: Where is my data?
+A: - Primary: Google Sheets (if connected)
+   - Backup: checkins_backup.json (always saved)
+
+
+File Structure Should Look Like:
+---------------------------------
+desktop_app/
+├── tasktracker_app.py
+├── credentials.json  ← YOUR SERVICE ACCOUNT FILE
+├── config.json       ← CREATED FROM TEMPLATE
+├── config_template.json
+├── requirements.txt
+└── checkins_backup.json (created after first check-in)
+
+
+Need Help?
+----------
+Check the terminal output for error messages!
+

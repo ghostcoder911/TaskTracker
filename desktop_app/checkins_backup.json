@@ -1,0 +1,172 @@
+[
+  {
+    "user_name": "Neeraj",
+    "check_type": "morning",
+    "date": "2025-11-21",
+    "time": "14:46:48",
+    "timestamp": "2025-11-21T14:46:48.994688",
+    "responses": {
+      "energy_check": {
+        "label": "Energy Check",
+        "answer": "Good",
+        "timestamp": "2025-11-21T14:46:40.876185"
+      },
+      "progress": {
+        "label": "Yesterday's Progress",
+        "answer": "svsv",
+        "timestamp": "2025-11-21T14:46:43.003929"
+      },
+      "focus": {
+        "label": "Today's Priorities",
+        "answer": "sdvsv",
+        "timestamp": "2025-11-21T14:46:45.506719"
+      },
+      "blockers": {
+        "label": "Blockers",
+        "answer": "dvsdv",
+        "timestamp": "2025-11-21T14:46:47.321972"
+      },
+      "mood": {
+        "label": "State of Mind",
+        "answer": "sdvsdv",
+        "timestamp": "2025-11-21T14:46:48.994591"
+      }
+    }
+  },
+  {
+    "user_name": "neeraj",
+    "check_type": "morning",
+    "date": "2025-11-21",
+    "time": "14:49:41",
+    "timestamp": "2025-11-21T14:49:41.629233",
+    "responses": {
+      "energy_check": {
+        "label": "Energy Check",
+        "answer": "agvadv",
+        "timestamp": "2025-11-21T14:49:31.109967"
+      },
+      "progress": {
+        "label": "Yesterday's Progress",
+        "answer": "advadv",
+        "timestamp": "2025-11-21T14:49:34.852960"
+      },
+      "focus": {
+        "label": "Today's Priorities",
+        "answer": "advavd",
+        "timestamp": "2025-11-21T14:49:37.908568"
+      },
+      "blockers": {
+        "label": "Blockers",
+        "answer": "advavd",
+        "timestamp": "2025-11-21T14:49:40.226972"
+      },
+      "mood": {
+        "label": "State of Mind",
+        "answer": "av",
+        "timestamp": "2025-11-21T14:49:41.629096"
+      }
+    }
+  },
+  {
+    "user_name": "sfv",
+    "check_type": "morning",
+    "date": "2025-11-21",
+    "time": "14:55:03",
+    "timestamp": "2025-11-21T14:55:03.622842",
+    "responses": {
+      "energy_check": {
+        "label": "Energy Check",
+        "answer": "sbfsb",
+        "timestamp": "2025-11-21T14:54:55.074414"
+      },
+      "progress": {
+        "label": "Yesterday's Progress",
+        "answer": "sdvsv",
+        "timestamp": "2025-11-21T14:54:56.739927"
+      },
+      "focus": {
+        "label": "Today's Priorities",
+        "answer": "dsvsfvb",
+        "timestamp": "2025-11-21T14:54:58.541133"
+      },
+      "blockers": {
+        "label": "Blockers",
+        "answer": "sfbsfb",
+        "timestamp": "2025-11-21T14:55:01.045586"
+      },
+      "mood": {
+        "label": "State of Mind",
+        "answer": "sfbsfb",
+        "timestamp": "2025-11-21T14:55:03.622733"
+      }
+    }
+  },
+  {
+    "user_name": "Neeraj",
+    "check_type": "morning",
+    "date": "2025-11-21",
+    "time": "15:09:45",
+    "timestamp": "2025-11-21T15:09:45.882535",
+    "responses": {
+      "energy_check": {
+        "label": "Energy Check",
+        "answer": "REdbull",
+        "timestamp": "2025-11-21T15:09:11.031997"
+      },
+      "progress": {
+        "label": "Yesterday's Progress",
+        "answer": "Task automation",
+        "timestamp": "2025-11-21T15:09:20.564566"
+      },
+      "focus": {
+        "label": "Today's Priorities",
+        "answer": "Embedded, robotics, ai",
+        "timestamp": "2025-11-21T15:09:30.047047"
+      },
+      "blockers": {
+        "label": "Blockers",
+        "answer": "No",
+        "timestamp": "2025-11-21T15:09:35.631655"
+      },
+      "mood": {
+        "label": "State of Mind",
+        "answer": "Good",
+        "timestamp": "2025-11-21T15:09:45.882424"
+      }
+    }
+  },
+  {
+    "user_name": "Neeraj",
+    "check_type": "evening",
+    "date": "2025-11-21",
+    "time": "15:11:14",
+    "timestamp": "2025-11-21T15:11:14.892993",
+    "responses": {
+      "wins": {
+        "label": "Today's Wins",
+        "answer": "tool automation",
+        "timestamp": "2025-11-21T15:10:53.281983"
+      },
+      "learnings": {
+        "label": "Learnings",
+        "answer": "ros",
+        "timestamp": "2025-11-21T15:10:59.912272"
+      },
+      "challenges": {
+        "label": "Challenges",
+        "answer": "no",
+        "timestamp": "2025-11-21T15:11:04.329625"
+      },
+      "tomorrow": {
+        "label": "Tomorrow's Focus",
+        "answer": "embedded",
+        "timestamp": "2025-11-21T15:11:09.749481"
+      },
+      "mood_end": {
+        "label": "Ending Mood",
+        "answer": "nice",
+        "timestamp": "2025-11-21T15:11:14.892857"
+      }
+    }
+  }
+]
