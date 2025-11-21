@@ -1,0 +1,27 @@
+services:
+  # Backend API Service
+  - type: web
+    name: tasktracker-backend
+    env: python
+    region: oregon
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: GOOGLE_SHEETS_CREDENTIALS
+        sync: false
+      - key: SPREADSHEET_ID
+        sync: false
+
+  # Frontend Service
+  - type: web
+    name: tasktracker-frontend
+    env: static
+    region: oregon
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://tasktracker-backend.onrender.com/api
+

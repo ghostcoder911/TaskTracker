@@ -1,0 +1,9 @@
+# Frontend Environment Variables Template
+# Copy this file to .env and fill in your values
+
+# For Local Development:
+REACT_APP_API_URL=http://localhost:5000/api
+
+# For Production (replace with your actual backend URL):
+# REACT_APP_API_URL=https://tasktracker-backend.onrender.com/api
+

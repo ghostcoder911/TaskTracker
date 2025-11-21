@@ -1,0 +1,17 @@
+# Backend Environment Variables Template
+# Copy this file to .env and fill in your values
+
+# Google Sheets Configuration
+# 1. Get from Google Cloud Console after creating service account
+# 2. Download JSON credentials file
+# 3. Convert to single line (remove line breaks) and paste here
+GOOGLE_SHEETS_CREDENTIALS={"type":"service_account","project_id":"YOUR_PROJECT","private_key_id":"YOUR_KEY_ID","private_key":"-----BEGIN PRIVATE KEY-----\nYOUR_PRIVATE_KEY\n-----END PRIVATE KEY-----\n","client_email":"YOUR_SERVICE_ACCOUNT@YOUR_PROJECT.iam.gserviceaccount.com","client_id":"YOUR_CLIENT_ID","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_x509_cert_url":"YOUR_CERT_URL"}
+
+# Spreadsheet ID from the Google Sheets URL
+# Example: https://docs.google.com/spreadsheets/d/SPREADSHEET_ID_HERE/edit
+SPREADSHEET_ID=your_spreadsheet_id_here
+
+# Server Configuration (usually don't need to change these)
+PORT=5000
+FLASK_ENV=production
+
